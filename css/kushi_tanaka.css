@@ -1,0 +1,93 @@
+html {
+    background-color: #FFFCAD;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 32px;
+}
+
+header {
+    background-color: #FBDE02;
+    text-align: center;
+}
+header img{
+    width: 50%;
+}
+
+/* メインビジュアル */
+.mainvisual{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 60px;
+}
+.mainvisual img{
+    width: 50%;
+}
+
+/* サイコロ2つのコンテな */
+.tap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 60px;
+}
+
+/* 振る前のサイコロ */
+.btn1,
+.btn2 {
+    width: 30%;
+    aspect-ratio: 1/1;
+    background-color: white;
+}
+
+/* 振った後のサイコロ */
+.deme1,.deme2,.deme3,.deme4,.deme5,.deme6{
+    width: initial;
+    width: 30%;
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.kekka {
+    font-weight: bold;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    background-color: #FBDE02;
+}
+
+/* footer */
+/* 箱 */
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*絶対位置*/
+    position: sticky;
+    /*最下部固定*/
+    bottom: 0;
+    margin-top: 60px;
+}
+
+/* 文字 */
+.footer-text {
+    font-size: 16px;
+    color: white;
+    padding: 30px;
+    padding: 30px;
+}

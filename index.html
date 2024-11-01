@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>じゃんけん課題</title>
+    <link rel="stylesheet" href="./css/janken.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>じゃんけん</h1>
+    </header>
+
+    <main>
+        <ul>
+            <!-- liタグは value属性を持たないため、冒頭をliタグをbuttonへ変更-->
+            <button class="btn" value="gu">グー</button> 
+            <button class="btn" value="cho">チョキ</button>
+            <button class="btn" value="par">パー</button>
+        </ul>
+        <div>コンピュータの出した手は？「<span class="pc_hands">なに？</span>」</div>
+        <div class="judgement">ーー</div>
+    </main>
+
+
+    <footer>
+    </footer>
+    
+    <!-- jQueryライブラリ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- jsファイルリンク -->
+    <script src="js/janken.js"></script>
+
+</body >
+
+</html >
